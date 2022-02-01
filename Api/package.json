@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "tsc -w",
+    "run": "ts-node src/index.ts",
+    "start": "tsc && concurrently \"tsc -w\" \"nodemon script/index.js\""
+  },
+  "keywords": [],
+  "author": "LilyCrown999",
+  "license": "ISC",
+  "dependencies": {
+    "@types/crypto-js": "^4.1.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "concurrently": "^7.0.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.9",
+    "nodemon": "^2.0.15",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
+}

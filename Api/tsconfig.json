@@ -1,0 +1,25 @@
+
+//type config configuration
+
+{
+	"compilerOptions": {
+		"outDir": "script",
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"downlevelIteration": true,
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"removeComments": true,
+		"noEmitOnError": true,
+		"strict": false,
+		"alwaysStrict": false,
+		"noImplicitAny": false,
+		"typeRoots": ["node_modules/@types/"]
+	},
+	"include": ["app.ts", "src/**/*.ts"],
+	"exclude": ["node_modules", "script"]
+}
+
